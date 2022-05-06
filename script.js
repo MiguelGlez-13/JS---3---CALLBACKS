@@ -9,6 +9,8 @@ document.getElementById("button02").addEventListener("click", () => {
 console.log("has pulsado el botón 2");
 });
 
+
+
 /*Función de llamada o solicitud de datos - primer código - FEO
 
 function saludar(nombre) {
@@ -23,7 +25,9 @@ function ingresarUsuario(callback) {
 }
 ingresarUsuario(saludar);
 */
-//Función de llamada o solicitud de datos - segundo código con negación en el IF
+
+
+//Función de llamada o solicitud de datos - segundo código con igualdad o negación en el IF
 
 function saludar(nombre) {
     if (nombre == "") {
@@ -39,4 +43,6 @@ function saludar(nombre) {
 
     }
 }
-    ingresarUsuario(saludar);
+ingresarUsuario(saludar);
+    
+
